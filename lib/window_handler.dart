@@ -6,7 +6,6 @@ class WindowHandler {
   final window = appWindow;
   static final _singleInstance = WindowHandler._internal();
 
-
   factory WindowHandler(){
     return _singleInstance;
   }
